@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Quiz</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="../css/style.css">
+
+<style type="text/css">
+.demo{width:760px; margin:60px auto 10px auto}
+</style>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="quiz.js"></script>
+<script type="text/javascript">
+var init={'questions':[{'question':'What is Homosexual?','answers':['Those who are attracted to people of the same sex',' Fear of lesbians and gay men','Not feeling sexual attraction or desire for sexuality','Those who identify as the gender they were assigned at birth'],'correctAnswer':1},{'question':'A sexual orientation generally characterized by not feeling sexual attraction or desire for partnered sexuality. ','answers':['Ally','Pansexual','Asexual','Outing'],'correctAnswer':3},{'question':'Who is Drag Queen/Drag King?','answers':['The adjective used to describe people whose enduring physical, romantic and/or emotional attractions are to people of the same sex','A woman whose enduring physical, romantic and/or emotional attraction is to other women','People who present socially in clothing, name, and/or pronouns that differ from their everyday gender','Individuals who identify as a heterosexual'],'correctAnswer':3},{'question':'Outing refers to:','answers':['The process of considering or exploring one’s sexual orientation and/or gender identity','Revealing another person’s sexual orientation or gender identity without that person’s consent','Fear of lesbians and gay men','How an individual expresses their socially constructed gender'],'correctAnswer':2}]};
+
+$(function(){
+	$('#quiz-container').jquizzy({
+        questions: init.questions
+    });
+});
+</script>
+</head>
+
+<body>
+
+ <!-- Navigation section  -->
+
+ <div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+
+		  <div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			  <span class="icon icon-bar"></span>
+			  <span class="icon icon-bar"></span>
+			  <span class="icon icon-bar"></span>
+			</button>
+			<a href="../index.html" class="navbar-brand">
+			  <i class="fa fa-magnet"></i>
+			</a>
+		  </div>
+		  <div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+			  <li class="active">
+				<a href="../index.html">Our Studies</a>
+			  </li>
+			  <li>
+				<a href="../game.html">Games</a>
+			  </li>
+			  <li>
+				<a href="../about.html">About Us</a>
+			  </li>
+			  <li>
+				<a href="../contact.html">Join Us</a>
+			  </li>
+			</ul>
+		  </div>
+
+		</div>
+      </div>
+
+<!-- Quiz section (cited from others)-->
+
+<br>
+
+<div class="demo">
+	<div id='quiz-container'></div>
+</div>
+
+<div style="text-align:center;">
+
+</div>
+<br>
+<br>
+<br>
+
+<!-- Footer Section -->
+
+<footer>
+		<div class="container">
+		  <div class="row">
+
+			<div class="col-md-3 col-sm-3">
+			  <a href="../index.html">
+			  <i class="fa"></i>
+			</a>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+			  <p>Salisbury University, 1101 Camden Ave, Salisbury, MD 21801, United States</p>
+			</div>
+
+			<div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+			  <p>
+				<a href="http://www.salisbury.edu" target="_black">http://www.salisbury.edu</a>
+			  </p>
+			  <p>(+01) 410-543-6000</p>
+			</div>
+
+			<div class="clearfix col-md-12 col-sm-12">
+			  <hr>
+			</div>
+
+			<div class="col-md-6 col-sm-6">
+			  <div class="footer-copyright">
+						<p>&copy 2017 Salisbury University | All Rights Reserved.
+							</p>
+							<p>Designer: Yun Nie (Anna).<a href="www.yunnie.com" target="_blank"> www.yunnie.com</a>
+							</p>
+			  </div>
+			</div>
+
+			<div class="col-md-6 col-sm-6">
+			  <ul class="social-icon">
+				<li>
+				  <a href="#" class="fa fa-facebook"></a>
+				</li>
+				<li>
+				  <a href="#" class="fa fa-twitter"></a>
+				</li>
+				<li>
+				  <a href="#" class="fa fa-linkedin"></a>
+				</li>
+			  </ul>
+			</div>
+
+		  </div>
+		</div>
+		</footer>
+
+
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+</body>
+
+</section>
+
+</html>

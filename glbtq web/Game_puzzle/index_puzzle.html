@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Puzzle</title>
+
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+	<!-- ================ PRE ================ -->
+
+	<div class="preloader">
+		<div class="sk-spinner sk-spinner-wordpress">
+			<span class="sk-inner-circle"></span>
+		</div>
+	</div>
+
+	<!-- ================= Navigation ================ -->
+
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon icon-bar"></span>
+					<span class="icon icon-bar"></span>
+					<span class="icon icon-bar"></span>
+				</button>
+				<a href="../index.html" class="navbar-brand">
+					<i class="fa fa-magnet"></i>
+				</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="../index.html">Our Studies</a>
+					</li>
+					<li>
+						<a href="../game.html">Games</a>
+					</li>
+					<li>
+						<a href="../about.html">About Us</a>
+					</li>
+					<li>
+						<a href="../contact.html">Join Us</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- ================ Game ================= -->
+
+	<section id="puzzle">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-offset-1 col-md-10 col-sm-12">
+					<div class="section-title">
+						<h3>Puzzle! Puzzle!</h3>
+						<h3>Picture #1</h3>
+					</div>
+
+					<div id="wrap">
+						<div class="col-md-4 col-sm-12">
+							<div id="left">
+								<ul>
+									<li id="start">
+										Start Game:
+										<span>Start</span>
+									</li>
+									<li id="level">
+										Select Level:
+										<span>3x3</span>
+									</li>
+									<li id="gameRule">
+										Game Rules：
+										<p>1. Click the button next to "Start Game" to begin</p>
+										<p>2. Click the button next to "Select Level" to change levels of difficulty</p>
+										<p>3. Click the button next to "Next Level" to go to next picture</p>
+										<p>4. Change pieces' location to reorganize the picture</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-8 col-sm-12">
+							<div id="right">
+								<div id="imgArea"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- ========== Footer ========== -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-3 col-sm-3">
+					<a href="../index.html">
+						<i class="fa"></i>
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-4">
+					<p>Salisbury University, 1101 Camden Ave, Salisbury, MD 21801, United States</p>
+				</div>
+
+				<div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+					<p>
+						<a href="http://www.salisbury.edu" target="_black">http://www.salisbury.edu</a>
+					</p>
+					<p>(+01) 410-543-6000</p>
+				</div>
+
+				<div class="clearfix col-md-12 col-sm-12">
+					<hr>
+				</div>
+
+				<div class="col-md-6 col-sm-6">
+					<div class="footer-copyright">
+							<p>&copy 2017 Salisbury University | All Rights Reserved.
+								</p>
+								<p>Designer: Yun Nie (Anna).<a href="www.yunnie.com" target="_blank"> www.yunnie.com</a>
+								</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6">
+					<ul class="social-icon">
+						<li>
+							<a href="#" class="fa fa-facebook"></a>
+						</li>
+						<li>
+							<a href="#" class="fa fa-twitter"></a>
+						</li>
+						<li>
+							<a href="#" class="fa fa-linkedin"></a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- SCRIPTS -->
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/custom.js"></script>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<!-- 以下两个js文件，一个是面向过程开发(process)，一个是面向对象开发(object)，修改引入文件既可以切换不同开发代码 -->
+	<!-- <script src="js/puzzleGame_process.js"></script> -->
+	<script type="text/javascript" src="js/puzzleGame_object.js"></script>
+</body>
+
+</html>
