@@ -52,10 +52,10 @@ img {
 
 
 /* ========= header ========== */
-.navbar.navbar-inverse {
+.navbar.navbar-default {
     border-radius: 0;
     border: none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(233, 233, 233);
     margin-bottom: 0;
 }
 
@@ -78,9 +78,9 @@ header {
 .banner-text {
     width: 100%;
     position: absolute;
-    left: 0;
-    top: 45%;
-    transform: translate(0, -15%);
+    left: 15%;
+    top: 55%;
+    transform: translate(-5%, -5%);
     z-index: 999;
     padding: 30px;
 }
@@ -114,7 +114,7 @@ header {
     right: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(51, 36, 27, 0.2);
+    background-color: rgba(51, 36, 27, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -146,11 +146,6 @@ header {
 
 .title.grid-mylife-title {
     grid-area: mylife-title;
-}
-
-.grid-mylife-image {
-    grid-area: mylife-image;
-    margin: 0 60px;
 }
 
 .text.grid-mylife-text {
@@ -327,20 +322,12 @@ header {
         grid-template-columns: 10% auto auto 10%;
         grid-template-areas:
         ". mylife-title mylife-title ."
-        ". mylife-text mylife-image ."
-        ". mylife-resume . .";
+        ". mylife-text mylife-text ."
+        ". mylife-resume mylife-resume .";
     }
 
     .title.grid-mylife-title {
         grid-area: mylife-title;
-    }
-
-    .grid-mylife-image {
-        grid-area: mylife-image;
-        display: flex;
-        align-items: center;
-        margin: 0 0;
-        max-width: 100%;
     }
 
     .btn.btn-primary {
