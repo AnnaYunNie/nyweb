@@ -487,7 +487,9 @@ header {
     "work1 work2 work6"
     "work4 work5 work3"
     "work7 work8 work9"
-    "work10 . .";
+    "work10 work11 work12"
+    "work13 work14 work15"
+    "work16 . .";
 }
 
 .project {
@@ -535,6 +537,29 @@ header {
     grid-area: work10;
 }
 
+.portfolio-work11 {
+    grid-area: work11;
+}
+
+.portfolio-work12 {
+    grid-area: work12;
+}
+
+.portfolio-work13 {
+    grid-area: work13;
+}
+
+.portfolio-work14 {
+    grid-area: work14;
+}
+
+.portfolio-work15 {
+    grid-area: work15;
+}
+
+.portfolio-work16 {
+    grid-area: work16;
+}
 
 /* ========= contact ========= */
 
@@ -605,7 +630,8 @@ header {
         "work1 work2 work6 work5"
         "work1 work2 work6 work3"
         "work4 work7 work8 work9"
-        "work10 . . .";
+        "work10 work11 work12 work13"
+        "work14 work15 work16 .";
     }
 
      /* ========= contact ========= */
