@@ -483,19 +483,18 @@ header {
     display: grid;
     grid-auto-columns: 50% 50%;
     grid-template-areas:
-    "work4 work5"
-    "work6 work7"
-    "work8 work9"
-    "work10 work11"
-    "work12 work13"
-    "work14 work15"
-    "work16 work17"
-    "work18 work19"
-    "work20 work21"
-    "work22 work23"
-    "work24 ."
-    "work1 work2"
-    "work3 .";
+    "work7 work8"
+    "work9 work10"
+    "work11 work12"
+    "work13 work14"
+    "work15 work16"
+    "work17 work18"
+    "work19 work20"
+    "work21 work22"
+    "work23 work24"
+    "work3 work1"
+    "work2 work4"
+    "work5 work6";
 }
 
 .project {
@@ -587,6 +586,18 @@ header {
     grid-area: work21;
 }
 
+.portfolio-work22 {
+    grid-area: work22;
+}
+
+.portfolio-work23 {
+    grid-area: work23;
+}
+
+.portfolio-work24 {
+    grid-area: work24;
+}
+
 /* ========= contact ========= */
 
 .grid.grid-contact {
@@ -652,14 +663,14 @@ header {
     .grid-portfolio-work {
         grid-auto-columns: 33.333% 33.333% 33.333%;
         grid-template-areas:
-        "work4 work5 work6"
         "work7 work8 work9"
         "work10 work11 work12"
         "work13 work14 work15"
         "work16 work17 work18"
         "work19 work20 work21"
         "work22 work23 work24"
-        "work1 work2 work3";
+        "work3 work2 work1"
+        "work4 work5 work6";
     }
 
      /* ========= contact ========= */
