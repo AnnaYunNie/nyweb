@@ -166,7 +166,7 @@ header {
 /* ========= image1 ========= */
 .grid.bgimage1 {
     grid-area: image1;
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg2.jpg");
     background-position: center;
     background-size: cover;
     max-height: 500px;
