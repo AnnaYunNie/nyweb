@@ -55,7 +55,7 @@ img {
 .navbar.navbar-default {
     border-radius: 0;
     border: none;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 254, 253);
     margin-bottom: 0;
 }
 
@@ -114,7 +114,6 @@ header {
     right: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(51, 36, 27, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
