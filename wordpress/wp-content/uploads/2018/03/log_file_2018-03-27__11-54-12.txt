@@ -1,0 +1,168 @@
+
+---Downloaded files---
+The import files for: Import Magazine Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/~anna/wordpress
+Data file = /Users/anna/Sites/wordpress/wp-content/themes/magazine-o/inc/demo/contents.xml
+Widget file = /Users/anna/Sites/wordpress/wp-content/themes/magazine-o/inc/demo/widgets.wie
+Customizer file = /Users/anna/Sites/wordpress/wp-content/themes/magazine-o/inc/demo/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+sidebar-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Image - Advertisement - Imported to Inactive
+Video - Video - Imported to Inactive
+Recent Comments - Feedback - Imported to Inactive
+Recent Posts - Latest Posts - Imported to Inactive
+Image - No Title - Imported to Inactive
+
+sidebar-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+magazine-o-featured-post - No Title - Site does not support widget
+
+sidebar-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+news-block-layout-one - Latest Posts - Site does not support widget
+news-block-layout-two - Entertainment - Site does not support widget
+news-block-layout-three - Fashion - Site does not support widget
+news-block-layout-two - Travel &amp; Fun - Site does not support widget
+news-block-layout-one - Sports - Site does not support widget
+news-block-layout-three - Editor&#039;s Picks - Site does not support widget
+
+sidebar-5 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Image - No Title - Imported to Inactive
+
+footer-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+sidebar_post_widget_three - Recent Posts - Site does not support widget
+sidebar_post_widget_three - Lifestyle - Site does not support widget
+sidebar_post_widget_three - News &amp; Events - Site does not support widget
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.

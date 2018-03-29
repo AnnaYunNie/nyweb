@@ -1,0 +1,51 @@
+
+---Downloaded files---
+The import files for: Import Magazine Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/~anna/wordpress
+Data file = /Users/anna/Sites/wordpress/wp-content/themes/magazine-o/inc/demo/contents.xml
+Widget file = /Users/anna/Sites/wordpress/wp-content/themes/magazine-o/inc/demo/widgets.wie
+Customizer file = /Users/anna/Sites/wordpress/wp-content/themes/magazine-o/inc/demo/customizer.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Image - Advertisement - Imported
+Video - Video - Imported
+Recent Comments - Feedback - Imported
+Recent Posts - Latest Posts - Imported
+Image - No Title - Imported
+
+Featured Posts Widget Area : 
+
+MX: Featured Posts - No Title - Imported
+
+Front Page Widget Area Top : 
+
+MX: News Block Layout 1 - Latest Posts - Imported
+MX: News Block Layout 2 - Entertainment - Imported
+MX: News Block Layout 3 - Fashion - Imported
+MX: News Block Layout 2 - Travel &amp; Fun - Imported
+MX: News Block Layout 1 - Sports - Imported
+MX: News Block Layout 3 - Editor&#039;s Picks - Imported
+
+Header Advertisement Widget Area : 
+
+Image - No Title - Imported
+
+Footer : 
+
+MX: Sidebar Post Widget 3 - Recent Posts - Imported
+MX: Sidebar Post Widget 3 - Lifestyle - Imported
+MX: Sidebar Post Widget 3 - News &amp; Events - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

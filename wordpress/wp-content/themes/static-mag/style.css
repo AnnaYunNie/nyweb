@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Static Mag
+ Theme URI:    http://themes4wp.com/theme/static-mag/
+ Description:  Static Mag is free magazine WordPress theme child theme of First Mag. Theme support WP Review plugin, an easy and powerful way to review content with stars, percentages or points rating. WooCommerce support is included. TechMag uses simple, clean flat design, is fully responsive and looks good on every device. Check the demo at http://demo.themes4wp.com/static-mag/
+ Author:       Themes4WP
+ Author URI:   http://themes4wp.com/
+ Template:     first-mag
+ Version:      1.0.1
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:         one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready
+ Text Domain:  static-mag
+*/
+
+/* Static images homepage */
+#static-home {
+    margin-top: 15px;
+}
+.static-post {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0;
+}
+.static-post {
+    
+    overflow: hidden;
+}
+.flex-meta, .flex-meta a  {
+    color: #ffffff;
+    opacity: 0.8;
+}
+.flex-meta i {
+    margin-right: 3px;
+}
