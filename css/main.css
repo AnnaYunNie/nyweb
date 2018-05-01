@@ -494,7 +494,9 @@ header {
     "work23 work24"
     "work3 work1"
     "work2 work4"
-    "work5 work6";
+    "work5 work6"
+    "work25 work26"
+    "Work 27 .";
 }
 
 .project {
@@ -598,6 +600,18 @@ header {
     grid-area: work24;
 }
 
+.portfolio-work25 {
+    grid-area: work25;
+}
+
+.portfolio-work26 {
+    grid-area: work26;
+}
+
+.portfolio-work27 {
+    grid-area: work27;
+}
+
 /* ========= contact ========= */
 
 .grid.grid-contact {
@@ -670,7 +684,8 @@ header {
         "work19 work20 work21"
         "work22 work23 work24"
         "work3 work2 work1"
-        "work4 work5 work6";
+        "work4 work5 work6"
+        "work25 work26 work27";
     }
 
      /* ========= contact ========= */
